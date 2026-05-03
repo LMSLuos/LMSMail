@@ -88,7 +88,7 @@ const oauthService = {
 
 		*/
 		//禁用LinuxDo登录
-		return {userInfo:"undefend";token:"undefend"}
+		return {userInfo:"undefend",token:"undefend"}
 	},
 
 	async saveUser(c, userInfo) {
