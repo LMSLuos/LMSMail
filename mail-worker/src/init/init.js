@@ -161,9 +161,9 @@ const dbInit = {
 
 	async v1_6DB(c) {
 
-		const noticeContent = '本项目仅供学习交流，禁止用于违法业务\n' +
+		const noticeContent = '欢迎使用LMSMail V1\n' +
 			'<br>\n' +
-			'请遵守当地法规，作者不承担任何法律责任'
+			'请遵守当地法规，作者不承担任何法律责任；如有任何疑问，请联系LMSLuos@LMS.CN.eu.org'
 
 		const ADD_COLUMN_SQL_LIST = [
 			`ALTER TABLE setting ADD COLUMN reg_verify_count INTEGER NOT NULL DEFAULT 1;`,
