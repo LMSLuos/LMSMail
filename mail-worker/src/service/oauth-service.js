@@ -32,6 +32,8 @@ const oauthService = {
 
 	async linuxDoLogin(c, params) {
 
+		/*
+
 		const { code } = params;
 
 		let token = '';
@@ -83,6 +85,10 @@ const oauthService = {
 
 		const JwtToken = await loginService.login(c, { email: userRow.email, password: null }, true);
 		return { userInfo: oauthRow, token: JwtToken }
+
+		*/
+		//禁用LinuxDo登录
+		return {userInfo:"undefend";token:"undefend"}
 	},
 
 	async saveUser(c, userInfo) {
